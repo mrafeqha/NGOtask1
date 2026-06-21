@@ -496,6 +496,15 @@ font-size:18px;
 line-height:1.8;
 
 }
+.contact-card{
+overflow:hidden;
+}
+
+.contact-card p{
+max-width:100%;
+overflow-wrap:break-word;
+word-break:break-word;
+}
 
 /* FOOTER */
 
@@ -515,103 +524,121 @@ font-size:16px;
 
 /* MOBILE */
 
+
 @media(max-width:768px){
 
 nav{
-
 flex-direction:column;
-
 gap:15px;
+padding:15px 5%;
+}
 
+.logo{
+flex-direction:column;
+text-align:center;
+font-size:18px;
+}
+
+.logo img{
+width:60px;
+height:60px;
 }
 
 nav ul{
-
 flex-wrap:wrap;
-
 justify-content:center;
+gap:18px;
+}
 
+nav a{
+font-size:16px;
 }
 
 .hero{
-
 padding-top:120px;
-
 }
 
 .hero h1{
-
 font-size:38px;
-
 }
 
 .hero p{
-
 font-size:18px;
-
 }
 
 .hero-logo{
-
 width:85px;
-
 }
 
 .about-container{
-
 flex-direction:column;
-
 }
 
 .stats{
-
 grid-template-columns:1fr;
-
 }
 
 .gallery{
-
 grid-template-columns:1fr;
-
 }
 
+/* FIX CONTACT SECTION */
+
 .contact-container{
-
 grid-template-columns:1fr;
+gap:25px;
+}
 
+.contact-card{
+padding:25px 20px;
+overflow-wrap:break-word;
+}
+
+.contact-card h3{
+font-size:20px;
+}
+
+.contact-card p{
+font-size:16px;
+line-height:1.8;
+word-wrap:break-word;
+overflow-wrap:break-word;
+word-break:break-word;
+}
+
+/* FIX LONG EMAILS */
+
+.contact-card a{
+word-break:break-all;
+}
+
+/* GENERAL */
+
+section{
+padding:60px 6%;
 }
 
 section h2{
-
 font-size:32px;
-
 }
 
+/* JOIN */
+
 #join{
-
 margin:20px;
-
 padding:60px 25px;
-
 }
 
 #join h2{
-
 font-size:36px;
-
 }
 
 #join p{
-
 font-size:18px;
-
 }
 
 #join button{
-
 font-size:18px;
-
 }
 
 }
-
