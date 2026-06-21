@@ -10,10 +10,9 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#f3f4f6;
+background:#f8fafc;
 color:#222;
 line-height:1.7;
-overflow-x:hidden;
 }
 
 /* HEADER */
@@ -26,9 +25,9 @@ top:0;
 
 width:100%;
 
-background:#fff;
+background:#ffffff;
 
-box-shadow:0 2px 15px rgba(0,0,0,.08);
+box-shadow:0 2px 15px rgba(0,0,0,0.08);
 
 z-index:1000;
 
@@ -64,9 +63,9 @@ color:#4f46e5;
 
 .logo img{
 
-width:55px;
+width:50px;
 
-height:55px;
+height:50px;
 
 object-fit:contain;
 
@@ -76,7 +75,7 @@ nav ul{
 
 display:flex;
 
-gap:28px;
+gap:25px;
 
 list-style:none;
 
@@ -86,11 +85,9 @@ nav a{
 
 text-decoration:none;
 
-color:#222;
+color:#333;
 
 font-weight:500;
-
-font-size:18px;
 
 transition:.3s;
 
@@ -116,28 +113,25 @@ align-items:center;
 
 text-align:center;
 
-padding:60px 20px;
-
-background:linear-gradient(
-135deg,
-#4f46e5,
-#7c3aed,
-#0ea5e9
-);
+background:linear-gradient(135deg,#4f46e5,#7c3aed);
 
 color:white;
+
+padding:60px 20px;
 
 }
 
 .hero-content{
 
-max-width:900px;
+max-width:850px;
 
 }
 
 .hero-logo{
 
-width:110px;
+width:100px;
+
+height:auto;
 
 margin-bottom:25px;
 
@@ -145,11 +139,9 @@ margin-bottom:25px;
 
 .hero h1{
 
-font-size:65px;
+font-size:60px;
 
 margin-bottom:25px;
-
-line-height:1.2;
 
 }
 
@@ -157,11 +149,11 @@ line-height:1.2;
 
 font-size:22px;
 
-line-height:1.9;
-
 max-width:800px;
 
 margin:auto;
+
+line-height:1.9;
 
 }
 
@@ -171,7 +163,7 @@ display:inline-block;
 
 margin-top:40px;
 
-padding:18px 40px;
+padding:16px 38px;
 
 background:white;
 
@@ -195,41 +187,7 @@ transform:translateY(-5px);
 
 }
 
-/* QUOTE */
-
-.quote-section{
-
-padding:60px 10%;
-
-}
-
-.quote-card{
-
-max-width:1000px;
-
-margin:auto;
-
-background:white;
-
-padding:40px;
-
-border-radius:25px;
-
-text-align:center;
-
-font-size:28px;
-
-font-weight:600;
-
-line-height:1.8;
-
-color:#4f46e5;
-
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-
-}
-
-/* SECTIONS */
+/* GENERAL */
 
 section{
 
@@ -239,9 +197,9 @@ padding:90px 10%;
 
 section h2{
 
-font-size:50px;
-
 text-align:center;
+
+font-size:42px;
 
 margin-bottom:50px;
 
@@ -265,7 +223,7 @@ gap:60px;
 
 flex:1;
 
-font-size:20px;
+font-size:19px;
 
 line-height:2;
 
@@ -281,9 +239,9 @@ flex:1;
 
 width:100%;
 
-border-radius:25px;
+border-radius:20px;
 
-box-shadow:0 10px 25px rgba(0,0,0,.1);
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
 
 }
 
@@ -293,7 +251,7 @@ box-shadow:0 10px 25px rgba(0,0,0,.1);
 
 display:grid;
 
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 
 gap:30px;
 
@@ -305,11 +263,11 @@ background:white;
 
 padding:35px;
 
-border-radius:25px;
+border-radius:20px;
 
 text-align:center;
 
-box-shadow:0 5px 20px rgba(0,0,0,.08);
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
 
 transition:.3s;
 
@@ -323,7 +281,7 @@ transform:translateY(-10px);
 
 .card i{
 
-font-size:42px;
+font-size:40px;
 
 color:#4f46e5;
 
@@ -333,17 +291,15 @@ margin-bottom:20px;
 
 .card h3{
 
-font-size:30px;
+margin-bottom:15px;
 
-margin-bottom:18px;
+font-size:24px;
 
 }
 
 .card p{
 
-font-size:18px;
-
-line-height:1.8;
+font-size:17px;
 
 }
 
@@ -355,7 +311,7 @@ display:grid;
 
 grid-template-columns:repeat(3,1fr);
 
-gap:30px;
+gap:25px;
 
 }
 
@@ -365,11 +321,11 @@ background:white;
 
 padding:35px;
 
-border-radius:25px;
+border-radius:20px;
 
 text-align:center;
 
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
 
 }
 
@@ -383,25 +339,13 @@ margin-bottom:15px;
 
 .stats p{
 
-font-size:22px;
+font-size:18px;
 
 font-weight:600;
 
 }
 
 /* GALLERY */
-
-.gallery-text{
-
-text-align:center;
-
-font-size:22px;
-
-margin-bottom:35px;
-
-color:#555;
-
-}
 
 .gallery{
 
@@ -421,7 +365,7 @@ height:320px;
 
 object-fit:cover;
 
-border-radius:25px;
+border-radius:20px;
 
 transition:.3s;
 
@@ -433,16 +377,11 @@ transform:scale(1.03);
 
 }
 
-/* JOIN */
+/* JOIN US */
 
 #join{
 
-background:linear-gradient(
-135deg,
-#4f46e5,
-#7c3aed,
-#0ea5e9
-);
+background:linear-gradient(135deg,#4f46e5,#7c3aed);
 
 color:white;
 
@@ -450,7 +389,7 @@ text-align:center;
 
 padding:90px 50px;
 
-border-radius:35px;
+border-radius:30px;
 
 margin:70px 50px;
 
@@ -458,7 +397,7 @@ margin:70px 50px;
 
 #join h2{
 
-font-size:55px;
+font-size:50px;
 
 color:white;
 
@@ -522,33 +461,37 @@ gap:30px;
 
 background:white;
 
-padding:35px 25px;
+padding:35px;
 
-border-radius:25px;
+border-radius:20px;
 
 text-align:center;
 
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
 
-overflow-wrap:break-word;
+transition:.3s;
 
-word-break:break-word;
+}
+
+.contact-card:hover{
+
+transform:translateY(-8px);
 
 }
 
 .contact-card h3{
 
-font-size:32px;
+font-size:24px;
 
 color:#4f46e5;
 
-margin-bottom:20px;
+margin-bottom:15px;
 
 }
 
 .contact-card p{
 
-font-size:20px;
+font-size:18px;
 
 line-height:1.8;
 
@@ -558,7 +501,7 @@ line-height:1.8;
 
 footer{
 
-background:#0f172a;
+background:#111827;
 
 color:white;
 
@@ -567,8 +510,6 @@ text-align:center;
 padding:35px;
 
 font-size:16px;
-
-line-height:2;
 
 }
 
@@ -580,61 +521,27 @@ nav{
 
 flex-direction:column;
 
-padding:15px 5%;
-
-}
-
-.logo{
-
-font-size:18px;
-
-}
-
-.logo img{
-
-width:40px;
-
-height:40px;
+gap:15px;
 
 }
 
 nav ul{
 
-display:flex;
-
 flex-wrap:wrap;
 
 justify-content:center;
-
-gap:18px;
-
-margin-top:10px;
-
-}
-
-nav a{
-
-font-size:16px;
 
 }
 
 .hero{
 
-padding-top:140px;
-
-min-height:80vh;
-
-}
-
-.hero-logo{
-
-width:80px;
+padding-top:120px;
 
 }
 
 .hero h1{
 
-font-size:40px;
+font-size:38px;
 
 }
 
@@ -644,35 +551,15 @@ font-size:18px;
 
 }
 
-.quote-card{
+.hero-logo{
 
-font-size:20px;
-
-padding:30px;
-
-}
-
-section h2{
-
-font-size:36px;
+width:85px;
 
 }
 
 .about-container{
 
 flex-direction:column;
-
-}
-
-.about-text{
-
-font-size:18px;
-
-}
-
-.project-container{
-
-grid-template-columns:1fr;
 
 }
 
@@ -694,23 +581,9 @@ grid-template-columns:1fr;
 
 }
 
-.contact-card{
+section h2{
 
-width:100%;
-
-padding:30px 20px;
-
-}
-
-.contact-card h3{
-
-font-size:24px;
-
-}
-
-.contact-card p{
-
-font-size:18px;
+font-size:32px;
 
 }
 
@@ -737,14 +610,6 @@ font-size:18px;
 #join button{
 
 font-size:18px;
-
-padding:16px 30px;
-
-}
-
-footer{
-
-font-size:14px;
 
 }
 
