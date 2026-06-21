@@ -127,15 +127,7 @@ max-width:850px;
 
 }
 
-.hero-logo{
 
-width:100px;
-
-height:auto;
-
-margin-bottom:25px;
-
-}
 
 .hero h1{
 
@@ -566,9 +558,7 @@ font-size:38px;
 font-size:18px;
 }
 
-.hero-logo{
-width:85px;
-}
+
 
 .about-container{
 flex-direction:column;
